@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b04f7528f31f475f9922b0b51992627, type: 3}
+  m_Name: 0x02
+  m_EditorClassIdentifier: 
+  displayName: Zone 0x02
+  currentTaskProgress: 0
+  taskDurationInSeconds: 15
+  numberOfOreMined: 0
+  maximumCapacityOfMine: 5000
+  oreTypeSO: {fileID: 11400000, guid: d78ca598ddbca466783e870b6ff80928, type: 2}
+  minersPurchased: 25
