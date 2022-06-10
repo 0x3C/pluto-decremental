@@ -5,6 +5,6 @@
  >> 
  >> Me: Yeah, I heard about that, Morty. And I disagree.
  >> 
- >> - Wayne Gretzky
+ >> — Wayne Gretzky
  >
- > - 0x3C
+ > — 0x3C
