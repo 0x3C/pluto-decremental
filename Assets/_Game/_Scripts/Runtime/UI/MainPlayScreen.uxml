@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="BackgroundPanel" style="flex-grow: 1; align-items: center; justify-content: center; margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px; background-color: rgb(126, 164, 255); flex-direction: row; padding-left: 15px; padding-right: 15px; padding-top: 15px; padding-bottom: 15px;">
+        <ui:VisualElement name="ButtonPanel" style="flex-grow: 1; width: 60%; max-width: 60%; min-width: 60%; height: 100%; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; background-color: rgb(255, 153, 218); flex-direction: row; flex-wrap: wrap; align-items: flex-start; justify-content: flex-end;" />
+        <ui:VisualElement name="InfoPanel" style="flex-grow: 1; width: 40%; max-width: 40%; min-width: 40%; height: 100%; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; background-color: rgb(255, 153, 153);">
+            <ui:Label text="Mining Zone 0x00" display-tooltip-when-elided="true" name="DisplayName" style="-unity-text-align: upper-center; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 2px; border-bottom-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);" />
+            <ui:Label text="Remaining Ore in Zone: {0}" display-tooltip-when-elided="true" name="RemainingOre" />
+            <ui:Label text="Miners: {0} / {1}" display-tooltip-when-elided="true" name="MinerCount" style="height: 25px;" />
+            <ui:Label text="Miner Level: {0}" display-tooltip-when-elided="true" name="MinerLevel" style="height: 25px;" />
+            <ui:Button text="Puchase Miner&#10;Cost: {0}" display-tooltip-when-elided="true" name="PurchaseMiner" />
+            <ui:Button text="Upgrade Miner&#10;Cost: {0}" display-tooltip-when-elided="true" name="UpgradeMiner" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
