@@ -4,7 +4,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class MiningZoneButtonGroup : MonoBehaviour
+public class MiningZoneButtonPanel : MonoBehaviour
 {
     public int gridWidth;
     public int gridHeight;
